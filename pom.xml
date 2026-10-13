@@ -65,7 +65,7 @@
     </distributionManagement>
 
     <build>
-        <finalName>myweb</finalName>
+        <finalName>${project.artifactId}-${project.version}</finalName>
 
         <plugins>
             <plugin>
